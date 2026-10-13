@@ -2,7 +2,7 @@
 
 ### Project Overview
 
-This folder contains the database design and SQL scripts for the **Spacebook application**, an office room and hotseat booking system. It organizes the database structure and data required to manage locations, offices, modules, employees, rooms, facilities, seats, bookings, and notifications.
+This folder contains the database design and SQL scripts for the **Spacebook application**, a facility room and hotseat booking system. It organizes the database structure and data required to manage locations, offices, modules, employees, rooms, facilities, seats, bookings, and notifications.
 
 ### Folder Structure
 
@@ -46,7 +46,7 @@ Data Model/
 | --------------- | --------------------------------------- |
 | Locations       | Stores office location information.     |
 | Offices         | Represents offices within locations.    |
-| Modules         | Organizes office modules or areas.      |
+| Modules         | Organizes office modules.               |
 | Employees       | Stores employee information.            |
 | Roles           | Defines application roles.              |
 | Rooms           | Stores meeting room details.            |
@@ -82,7 +82,7 @@ The `ER Diagram.drawio` file represents the database entities and their relation
 ### How to Use
 
 1. Clone or download the repository.
-2. Navigate to the `Data Model/` folder.
+2. Navigate to the `scripts/` folder.
 3. Review the ER diagram to understand the database structure and relationships.
 4. Execute the DDL scripts in the appropriate dependency order.
 5. Execute the DML scripts after confirming that the required tables exist.
