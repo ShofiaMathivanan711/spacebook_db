@@ -82,7 +82,7 @@ The `ER Diagram.drawio` file represents the database entities and their relation
 ### How to Use
 
 1. Clone or download the repository.
-2. Navigate to the `scripts/` folder.
+2. Navigate to the `Data Model/` folder.
 3. Review the ER diagram to understand the database structure and relationships.
 4. Execute the DDL scripts in the appropriate dependency order.
 5. Execute the DML scripts after confirming that the required tables exist.
